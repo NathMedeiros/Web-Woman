@@ -1,1 +1,131 @@
-/* Desenvolva sua estilização aqui... */
+.header {
+  background: var(--color-grey-1)
+    url(/assets/img/Pexels\ Photo\ by\ Christina\ Morillo.png) no-repeat;
+  background-size: cover;
+  color: white;
+  background-position: center center;
+  height: 100%;
+  background-attachment: fixed;
+}
+
+.indice {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 700px;
+}
+
+.indice > img {
+  margin: 60px 10px 70px;
+}
+
+.indice > h2 {
+  line-height: 40px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.description {
+  margin-left: 10px;
+  line-height: 32px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.p {
+  margin-top: 20px;
+}
+
+.buttonJobs {
+  border: 2px solid var(--color-brand-1);
+  background-color: var(--color-brand-1);
+  color: var(--color-grey-6);
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 50px;
+  margin: 100px 10px;
+  cursor: pointer;
+}
+
+.h3 {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.jobsList {
+  margin-top: 20px;
+
+  list-style: none;
+}
+
+.divDescrition {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  background-color: transparent;
+  text-align: justify;
+}
+.local-work {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+
+}
+.buttons {
+  border: none;
+  margin-bottom: 20px;
+}
+.bt-WorkType {
+  border: none;
+  margin-left: 10px;
+  background-color: var(--color-grey-3);
+  border-radius: 8px;
+  width: 111px;
+  height: 30px;
+}
+.bt-Submit {
+  border: none;
+  margin-bottom: 20px;
+  border: 2px solid var(--color-brand-1);
+  background-color: var(--color-brand-1);
+  color: var(--color-grey-6);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.90rem;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 270px;
+
+}
+.addJobs {
+  background-color: var(--color-grey-6);
+  height: 367px;
+  margin-left: 20px;
+}
+
+.jobsNew{
+  margin-top: 20px;
+  list-style: none;
+  font-size: small;
+}
+
+.jobsNew h3{
+  margin-bottom: 10px;
+}
+.divAside{
+  display: flex;
+  gap: 10px;
+}
+.divHeader{
+  display: flex;
+ 
+}
+.bt-remove{
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+}
